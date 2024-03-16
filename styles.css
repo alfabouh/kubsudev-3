@@ -1,0 +1,85 @@
+#form {
+	order: 3;
+	background-color: #9bbe9f;
+	border: 5px solid #748c69;
+	padding: 10px;
+	margin: 10px;
+}
+
+body {
+	border: 3px solid #d4d4d4;
+	background-color: #dddad8;
+}
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form input[type="date"],
+form select,
+form textarea {
+  background: #e6f6e8;
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #677b63;
+  width: 100%;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+form input[type="radio"] {
+  margin-right: 5px;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+li {
+	color: #262626;
+	letter-spacing: 2px;
+}
+
+input[type="date"], option, label, p.common {
+	color: #262626;
+	width: auto;
+	letter-spacing: 2px;
+}
+
+td, tr, th {
+	border: 2px solid #748c69;
+	padding: 6px;
+	width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: #deffe5;
+}
+
+tr:nth-child(odd) {
+  background-color: #c0e8c2;
+}
+
+input[type="submit"] {
+    font-family: "Calibri";
+    margin-right: 1px;
+    height: auto + 2px;
+    font-size: 22px;
+	font-style: italic;
+	background: linear-gradient(#f5fff4, #a6e7a7);
+	border: 2px solid #51654f;
+}
+
+input[type="submit"]:hover {
+    font-family: "Calibri";
+    margin-right: 1px;
+    height: auto + 2px;
+    font-size: 22px;
+	font-style: italic;
+	background: linear-gradient(#a6e7a7, #f5fff4);
+	border: 2px solid #51654f;
+}
+
+html {
+	background-color: #faf9ec;
+	font-size: 18px;
+	font-family: "Calibri";
+}

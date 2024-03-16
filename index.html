@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <title>Mission 3</title>
+    </head>
+    <body>
+        <div id="form">
+            <form id="s1">
+                <label for="name">ФИО:</label>
+                <input type="text" id="name" name="name" placeholder="ФИО"><br>
+                <label for="mobile">Телефон:</label>
+                <input type="tel" id="mobile" name="tele" placeholder="8 900 100 20 30"><br>
+                <label for="mail">Почта:</label>
+                <input type="email" id="mail" name="mail" placeholder="mail@mail.com"><br>
+                <label for="bdate">Дата рождения:</label>
+                <input type="date" id="bdate" name="bdate">
+                <p class="common">Пол:</p>
+                <input type="radio" id="ml" name="gender" value="ml">
+                <label for="ml">М</label><br>
+                <input type="radio" id="fml" name="gender" value="fml">
+                <label for="fml">Ж</label><br><br>
+                <label for="lang">Любимый ЯП</label><br>
+                <select id="lang" name="pr-ln" multiple>
+                    <option value="pascal">Pascal</option>
+                    <option value="c">C</option>
+                    <option value="cpp">C++</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="php">PHP</option>
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                    <option value="haskell">Haskell</option>
+                    <option value="clojure">Clojure</option>
+                    <option value="prolog">Prolog</option>
+                    <option value="scala">Scala</option>
+                </select><br>
+                <label for="bio">Биография</label><br>
+                    <textarea id="bio" name="bio" rows=4></textarea><br><br>
+                    <input type="checkbox" id="check" name="cbox" value="check">
+                    <label for="check" id="contract">С контрактом ознакомлен</label><br>
+                    <input id="sendbutton" type="submit" value="Сохранить">
+            </form>
+        </div>
+    </body>
+    <script src="scripts.js" defer></script>
+</html>
